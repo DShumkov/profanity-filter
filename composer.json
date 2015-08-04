@@ -1,0 +1,22 @@
+{
+    "name": "dshumkov/profanity-filter",
+    "description": "Profanity filter based on Swearjar library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Shumkov",
+            "email": "d.shumkov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "include-path": ["src/"]
+}
